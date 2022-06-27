@@ -1,6 +1,6 @@
 {
     "name": "ShaderAnalyzer",
-    "rootNamespace": "ShaderAnalyzer",
+    "rootNamespace": "UnityShaderAnalyzer",
     "references": [],
     "includePlatforms": [
         "Editor"
