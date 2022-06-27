@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace UnityShaderAnalyzer
 {
-	public class ShaderBuildAnalyzer : IPreprocessShaders, IPostprocessBuildWithReport
+	public class ShaderBuildProcessor : IPreprocessShaders, IPostprocessBuildWithReport
 	{
 		public int callbackOrder => 1;
 
@@ -17,7 +17,7 @@ namespace UnityShaderAnalyzer
 		public void OnPostprocessBuild(BuildReport report)
 		{
 			if (_data != null) {
-				string filename = $"Assets/ShaderVariants-{DateTime.Now:yy-MM-dd HH:mm:ss}.asset";
+				string filename = $"Assets/ShaderVariants-{DateTime.Now:yyMMdd HHmmss}.asset";
 				AssetDatabase.CreateAsset(_data, filename);
 			}
 
