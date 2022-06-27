@@ -19,6 +19,11 @@ namespace UnityShaderAnalyzer
 				var data = (ShaderAnalyzerData) target;
 				data.AnalyzeAllJson(UnityEditor.Rendering.ShaderCompilerPlatform.GLES3x, UnityEngine.Rendering.GraphicsTier.Tier1, BuildTarget.Android);
 			}
+
+			if (GUILayout.Button("Clear Analyses")) {
+				var data = (ShaderAnalyzerData) target;
+				data.ClearAllAnalysis();
+			}
 		}
 	}
 }

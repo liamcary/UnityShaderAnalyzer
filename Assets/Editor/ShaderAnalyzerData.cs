@@ -36,6 +36,13 @@ namespace UnityShaderAnalyzer
 			}
 		}
 
+		public void ClearAllAnalysis()
+		{
+			foreach (var variant in _shaderVariants) {
+				variant.ClearAnalysis();
+			}
+		}
+
 		IEnumerable<ShaderVariantData> GetVariants(ShaderCompilerPlatform? platform, GraphicsTier? graphicsTier, BuildTarget? buildTarget)
 		{
 			var variants = _shaderVariants.AsEnumerable();
