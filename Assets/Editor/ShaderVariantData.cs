@@ -92,18 +92,19 @@ namespace UnityShaderAnalyzer
 
 		bool TryGetFilePath(out string path)
 		{
+			string filename;
+
 			if (ShaderType == ShaderType.Vertex) {
-				path = $"{Guid.NewGuid()}.vert";
-				return true;
+				filename = $"{Guid.NewGuid()}.vert";
+			} else if (ShaderType == ShaderType.Fragment) {
+				filename = $"{Guid.NewGuid()}.frag";
+			} else {
+				path = null;
+				return false;
 			}
 
-			if (ShaderType == ShaderType.Fragment) {
-				path = $"{Guid.NewGuid()}.frag";
-				return true;
-			}
-
-			path = null;
-			return false;
+			path = Path.Combine("Temp", filename);
+			return true;
 		}
 
 		bool TryCompileCode()
