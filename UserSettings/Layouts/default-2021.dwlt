@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 687
+  controlID: 28
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 686
+  controlID: 70
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 685
+  controlID: 69
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Liam
+  m_LastLoadedLayoutName: 
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 774
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,8 +318,8 @@ MonoBehaviour:
     y: 0
     width: 997
     height: 1307
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -551,14 +551,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Shaders
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Liam.Cary\Projects\UnityShaderAnalyzer\UnityShaderAnalyzer
+  m_LastProjectPath: C:\Users\Liam.Cary\Projects\UnityShaderAnalyzer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 706d0000
-    m_LastClickedID: 28016
-    m_ExpandedIDs: 00000000286d000000ca9a3bffffff7f
+    m_SelectedIDs: 3c420000
+    m_LastClickedID: 16956
+    m_ExpandedIDs: 000000003a42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -586,7 +586,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.014578017, y: -0.38678434, z: 0.0061158594, w: 0.9220492}
     speed: 2
-    m_Value: {x: 0.014577823, y: -0.3867792, z: 0.006115778, w: 0.9220369}
+    m_Value: {x: -0.014578017, y: 0.38678434, z: -0.0061158594, w: -0.9220492}
   m_Size:
     m_Target: 10
     speed: 2
@@ -1070,9 +1070,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b66d0000
+      m_SelectedIDs: 4c420000
       m_LastClickedID: 0
-      m_ExpandedIDs: 7837feff9237feffac37feffbc37fefff43afeffa23cfeffba3dfeffa03efeffaa3efeffba3efeffca3efeff023ffeff5a3ffeff1658feff2258feff8c58feffa258feffb458fefff458feff2e59feff8071fefffc71feff4472fefffa73fefff474feffe875feff0c76feff3477feff3e77feff7814ffff48f6fffff4faffff32fbffff1682010020080300ec0f0300ee0f0300f20f0300f60f030002100300
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
